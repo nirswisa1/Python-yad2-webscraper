@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 #Web scraping for "yad2" website
 #Make sure your link includes your preferences such as price and area
 
-driver = webdriver.Chrome(r'dir.exe')
+driver = webdriver.Chrome(r'dir/chrome.exe')
 driver.get(
     'https://www.yad2.co.il/realestate/rent?topArea=2&area=1&city=5000&neighborhood=1520&rooms=3-3&price=6500-8700')
 driver.maximize_window()
