@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 #Web scraping for "yad2" website
 #Make sure your link includes your preferences such as price and area
 
-driver = webdriver.Chrome(r'C:\Users\NS\Downloads\PYTHON\chromedriver.exe')
+driver = webdriver.Chrome(r'dir.exe')
 driver.get(
     'https://www.yad2.co.il/realestate/rent?topArea=2&area=1&city=5000&neighborhood=1520&rooms=3-3&price=6500-8700')
 driver.maximize_window()
@@ -52,9 +52,9 @@ def my_app_bot(ids_of_apt):
 
     if new_apts:
         #send email
-        sender = "nirswisa1@gmail.com"
-        rec = "yochai1994@gmail.com"
-        password = 'pemvbavnbbyurbfx'
+        sender = "sender@gmail.com"
+        rec = "reciver@gmail.com"
+        password = 'password'
         mes = '''
         '''.join(new_apts)
         msg = EmailMessage()
