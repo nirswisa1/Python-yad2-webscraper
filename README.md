@@ -1,1 +1,0 @@
-# yad2-webscraper
