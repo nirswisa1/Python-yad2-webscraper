@@ -85,9 +85,9 @@ def my_app_bot(ids_of_apt):
 
     if new_apts:
         #send email
-        sender = "nirswisa1@gmail.com"
+        sender = "user_name@gmail.com" #enter your e-mail address 
         rec = email
-        password = 'pemvbavnbbyurbfx'
+        password = '##########' #enter your google password (allow e-mail automation)
         mes = '''
         '''.join(new_apts)
         msg = EmailMessage()
